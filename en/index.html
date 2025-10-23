@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kachi Portfolio - Web Developer & Animator</title>
+    <link rel="icon" href="" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/style.css" />
+  </head>
+  <body>
+    <div id="loading-bar"></div>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">
+            <i class="fas fa-code"></i>
+            <span>My Portfolio</span>
+          </div>
+          <div class="nav-right">
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <!-- <li><a href="#certificates">Certificates</a></li> -->
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="theme-toggle" id="themeToggle">
+              <i class="fas fa-sun"></i>
+              <i class="fas fa-moon"></i>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content" id="home">
+          <h1>Hello, I'm KACHI</h1>
+          <p>
+            I'm a student from INDONESIA eager to learn more in animation and
+            programming.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="stats">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <span class="stat-number">24+</span><span>Projects</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">3+</span><span>Years</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">15+</span><span>Clients</span>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <section id="about">
+      <div class="container">
+        <div class="section-title"><h2>About Me</h2></div>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I am a web developer with solid experience in building modern and
+              responsive websites. I also have some experience in animation
+              (lightweight/simple animations).
+            </p>
+            <p>
+              I am skilled in various web and Roblox game development
+              technologies, including HTML, CSS, JavaScript, Node.js, Lua
+              (Roblox), and Minecraft server management—ranging from Paper,
+              PMMP, to Bedrock Edition servers.
+            </p>
+            <div class="skills">
+              <div class="skill-category">
+                <h4><i class="fas fa-code"></i> Web Development: 90%</h4>
+                <div class="skill-bar">
+                  <div class="skill-progress web-dev"></div>
+                </div>
+              </div>
+              <div class="skill-category">
+                <h4><i class="fas fa-paint-brush"></i> Animation: 20%</h4>
+                <div class="skill-bar">
+                  <div class="skill-progress animation"></div>
+                </div>
+              </div>
+              <div class="skill-category">
+                <h4>
+                  <i class="fas fa-code"></i> Roblox Game Development: 46%
+                </h4>
+                <div class="skill-bar">
+                  <div class="skill-progress roblox-dev"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="experience" class="experience">
+      <div class="container">
+        <div class="section-title"><h2>Experience</h2></div>
+        <div class="experience-grid">
+          <div class="experience-card">
+            <span class="experience-date">2024 – Present</span>
+            <h3 class="experience-title">Web Developer</h3>
+            <p>
+              Developing simple, modern, and responsive websites to enhance user
+              experience.
+            </p>
+          </div>
+          <div class="experience-card">
+            <span class="experience-date">2024 – Present</span>
+            <h3 class="experience-title">Game Developer (Roblox)</h3>
+            <p>
+              Creating Roblox games with engaging mechanics, simple animations,
+              and lightweight models.
+            </p>
+          </div>
+          <div class="experience-card">
+            <span class="experience-date">2021 – Present</span>
+            <h3 class="experience-title">Minecraft Server Developer</h3>
+            <p>
+              Managing Minecraft servers with custom plugins and unique in-game
+              economies for players.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <div class="container">
+        <div class="section-title"><h2>My Projects</h2></div>
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card">
+            <div class="project-img">
+              <img
+                src="../assets/myPorfolio_thumb.png"
+                alt="Portfolio Website"
+              />
+              <div class="project-overlay">
+                <i class="fas fa-laptop-code project-icon"></i>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Portfolio Website</h3>
+              <p>A simple portfolio website with a modern design.</p>
+              <div class="project-tags">
+                <span class="project-tag">HTML</span>
+                <span class="project-tag">CSS</span>
+                <span class="project-tag">JavaScript</span>
+              </div>
+              <a href="../en/" class="btn">View Details</a>
+            </div>
+          </div>
+          <!-- Project 2 (WIP) -->
+          <div class="project-card">
+            <div class="project-img">
+              <img src="../assets/gnGame-Proj.png" alt="Roblox Game" />
+              <div class="wip-badge">
+                <i class="fas fa-tools"></i> In Progress
+              </div>
+              <div class="project-overlay">
+                <i class="fas fa-gamepad project-icon"></i>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Mount ____ Game</h3>
+              <p>
+                A simple Roblox mountain-climbing game with various obstacles.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">Lua</span>
+              </div>
+              <!-- <a href="#" class="btn">View Details</a> -->
+            </div>
+          </div>
+          <!-- Project 3 -->
+          <div class="project-card">
+            <div class="project-img">
+              <img src="../assets/Umb-Banner.png" alt="Umbreon-Js Banner" />
+              <div class="project-overlay">
+                <i class="fas fa-laptop-code project-icon"></i>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Umbreon-Js</h3>
+              <p>A simple JavaScript client.</p>
+              <div class="project-tags">
+                <span class="project-tag">JavaScript</span>
+                <span class="project-tag">Node.js</span>
+              </div>
+              <a href="https://github.com/Info80808090/Umbreon-js" class="btn"
+                >View Details</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <section id="certificates">
+      <div class="container">
+        <div class="section-title"><h2>Certificates</h2></div>
+        <div class="certificates">
+          <div class="certificate-card">
+            <div class="certificate-image">
+              <img
+                src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
+                alt="Web Development Certificate"
+              />
+            </div>
+            <h3>Web Development</h3>
+            <p>Advanced JavaScript & Node.js</p>
+            <small>Platform: Coursera</small>
+            <a href="#" class="certificate-link">View Certificate</a>
+          </div>
+          <div class="certificate-card">
+            <div class="certificate-image">
+              <img
+                src="https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
+                alt="Responsive Design Certificate"
+              />
+            </div>
+            <h3>Responsive Design</h3>
+            <p>Modern CSS & Flexbox/Grid</p>
+            <small>Platform: Udemy</small>
+            <a href="#" class="certificate-link">View Certificate</a>
+          </div>
+          <div class="certificate-card">
+            <div class="certificate-image">
+              <img
+                src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
+                alt="Roblox Development Certificate"
+              />
+            </div>
+            <h3>Roblox Development</h3>
+            <p>Lua Scripting & Game Design</p>
+            <small>Platform: Roblox Academy</small>
+            <a href="#" class="certificate-link">View Certificate</a>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- === CONTACT SECTION === -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-title"><h2>Contact Me</h2></div>
+        <div class="contact-container">
+          <div class="contact-form">
+            <form
+              id="contactForm"
+              action="https://formspree.io/f/mqayvqgn"
+              method="POST"
+            >
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  placeholder="Enter your name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder="Enter your email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  required
+                  placeholder="Message subject"
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  required
+                  placeholder="Write your message here..."
+                ></textarea>
+              </div>
+              <button type="submit" class="btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="social-links">
+          <a href="https://github.com/Info80808090" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://www.tiktok.com/@itskachich" target="_blank"
+            ><i class="fab fa-tiktok"></i
+          ></a>
+          <a href="https://wa.me/6285591495084" target="_blank"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+          <a href="https://www.instagram.com/always_wrong69/" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+        <p>© 2025 By Kachi</p>
+        <p class="copyright"></p>
+      </div>
+    </footer>
+    <button id="backToTop" class="back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+    <a href="../id/" class="language-flag" title="Bahasa Indonesia">
+      <img
+        src="https://flagcdn.com/w20/id.png"
+        alt="Indonesian"
+        width="20"
+        height="20"
+      />
+    </a>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const loadingBar = document.getElementById("loading-bar");
+        let width = 0;
+        const interval = setInterval(() => {
+          if (width >= 100) {
+            clearInterval(interval);
+            setTimeout(() => {
+              loadingBar.style.opacity = "0";
+              setTimeout(() => {
+                loadingBar.style.display = "none";
+              }, 300);
+            }, 200);
+          } else {
+            width += 2;
+            loadingBar.style.width = width + "%";
+          }
+        }, 30);
+      });
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          document
+            .querySelector(this.getAttribute("href"))
+            .scrollIntoView({ behavior: "smooth" });
+        });
+      });
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) entry.target.classList.add("visible");
+          });
+        },
+        { threshold: 0.1 }
+      );
+      document
+        .querySelectorAll(
+          ".hero-content, .section-title, .about-content, .experience-card, .project-card, .certificate-card, .contact-container, footer"
+        )
+        .forEach((el) => observer.observe(el));
+      const themeToggle = document.getElementById("themeToggle");
+      const body = document.body;
+      const savedTheme = localStorage.getItem("theme") || "dark";
+      if (savedTheme === "light") body.classList.add("light-mode");
+      themeToggle.addEventListener("click", () => {
+        body.classList.toggle("light-mode");
+        localStorage.setItem(
+          "theme",
+          body.classList.contains("light-mode") ? "light" : "dark"
+        );
+      });
+      const backToTopButton = document.getElementById("backToTop");
+      window.addEventListener("scroll", () => {
+        backToTopButton.classList.toggle("visible", window.scrollY > 400);
+      });
+      backToTopButton.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+    </script>
+  </body>
+</html>
